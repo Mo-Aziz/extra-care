@@ -3,7 +3,10 @@ dependancies
 cn
 tailwind-animate
 clsx
+tailwind merge
 shadcn/ui
+react-phone-number-input
+APPwrite
 
 ```
 

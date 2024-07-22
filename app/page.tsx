@@ -1,4 +1,4 @@
-import PatientForm from "@/components/ui/forms/PatientForm";
+import { PatientForm } from "@/components/forms/PatientForm";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,13 +8,17 @@ export default function Home() {
       {/* todo: OTP verification */}
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[496px]">
-          <Image
-            src="/assets/icons/logo-full.svg"
-            height={1000}
-            width={1000}
-            alt="care extra logo"
-            className="mb-12 h-10 w-fit"
-          />
+          <div className="flex gap-x-3 justify-left">
+            <Image
+              src="/assets/icons/logo-icon.svg"
+              height={1000}
+              width={1000}
+              alt="care extra logo"
+              className="mb-12 h-10 w-fit"
+            />
+            <p className="text-3xl font-bold">ExtraCare</p>
+          </div>
+
           <PatientForm />
           <div className="text-14-regular mt-20 flex justify-between">
             <p className="justify-items-end text-dark-600 xl:text-left">
