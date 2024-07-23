@@ -16,7 +16,7 @@ export default function Home() {
               alt="care extra logo"
               className="mb-12 h-10 w-fit"
             />
-            <p className="text-3xl font-bold">ExtraCare</p>
+            <p className="text-[100px] font-bold">ExtraCare</p>
           </div>
 
           <PatientForm />
