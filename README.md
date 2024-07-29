@@ -5,7 +5,10 @@ tailwind-animate
 clsx
 tailwind merge
 shadcn/ui
+**\* packages**
 react-phone-number-input
+react-dropzone
+react-date picker
 APPwrite
 
 ```
