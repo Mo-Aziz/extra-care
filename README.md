@@ -9,7 +9,8 @@ shadcn/ui
 react-phone-number-input
 react-dropzone
 react-date picker
-APPwrite
+APPwrite for database and storage.
+sentury.
 
 ```
 
